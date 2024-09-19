@@ -19,7 +19,7 @@ jobs:
         run: >
           mvn -B verify -DskipTests sonar:sonar
           -Dsonar.projectKey=TrueAlexCv_DevOps1
-          -Dsonar.organization=truealexcv2428
+          -Dsonar.organization=alexcv2
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=$SONAR_TOKEN
         env:
